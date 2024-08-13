@@ -1,2 +1,2 @@
 # ALTSCHOOL1
-About myself
+About myself--this is for learning purpose only
