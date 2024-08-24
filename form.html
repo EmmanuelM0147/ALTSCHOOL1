@@ -4,6 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ALT School Application Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    fieldset {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+
+    legend {
+      font-weight: bold;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+  </style>
 </head>
 <body>
 <!-- Global Navigation -->
@@ -22,33 +120,33 @@
       <legend>Personal Information</legend>
 
       <label for="fullName">Full Name:</label>
-      <input type="text" id="fullName" name="fullName" required><br><br>
+      <input type="text" id="fullName" name="fullName" required>
 
       <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required><br><br>
+      <input type="email" id="email" name="email" required>
 
       <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required><br><br>
+      <input type="tel" id="phone" name="phone" required>
     </fieldset>
 
     <fieldset>
       <legend>Education Background</legend>
 
       <label for="school">Previous School Attended:</label>
-      <input type="text" id="school" name="school" required><br><br>
+      <input type="text" id="school" name="school" required>
 
       <label for="degree">Degree Obtained:</label>
-      <input type="text" id="degree" name="degree" required><br><br>
+      <input type="text" id="degree" name="degree" required>
     </fieldset>
 
     <fieldset>
       <legend>Program Information</legend>
 
       <label for="program">Program Applying For:</label>
-      <input type="text" id="program" name="program" required><br><br>
+      <input type="text" id="program" name="program" required>
 
       <label for="why">Why do you want to join ALT School?</label>
-      <textarea id="why" name="why" rows="4" required></textarea><br><br>
+      <textarea id="why" name="why" rows="4" required></textarea>
     </fieldset>
 
     <input type="submit" value="Submit">
