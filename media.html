@@ -54,10 +54,6 @@
             border: none;
             margin-bottom: 20px;
         }
-        
-        picture {
-            width: 70px;
-            height: 40px;
       
     </style>
 </head>
@@ -91,9 +87,9 @@
                     <!-- Source for small screens (e.g., large smartphones) -->
                     <source media="(min-width: 576px)" srcset="./IMG_8449.jpeg">
                     <!-- Source for extra small screens (e.g., small smartphones) -->
-                    <source media="(max-width: 575px)" srcset="./IMG_8449.jpeg">
+                    <source media="(max-width: 575px)" srcset="./IMG_8449.jpeg" width="400" height="500" />
                     <!-- Fallback image for browsers that don't support the picture element -->
-                    <img src="./IMG_8449.jpeg" alt="Responsive image">
+                    <img src="./IMG_8449.jpeg" alt="Responsive image" width="400" height="500"/>
                 </picture>
             </section>
 
