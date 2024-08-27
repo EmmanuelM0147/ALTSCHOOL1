@@ -1,158 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ALT School Application Form</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-
-    nav {
-      background-color: #333;
-      color: white;
-      padding: 10px 0;
-    }
-
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    nav ul li {
-      display: inline;
-      margin: 0 15px;
-    }
-
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav ul li a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    h1 {
-      text-align: center;
-      color: #333;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    fieldset {
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      padding: 15px;
-    }
-
-    legend {
-      font-weight: bold;
-      color: #333;
-    }
-
-    label {
-      display: block;
-      margin-bottom: 5px;
-      color: #555;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    textarea {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-
-    input[type="submit"] {
-      background-color: #333;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-
-    input[type="submit"]:hover {
-      background-color: #555;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Signup</title>
 </head>
-<body>
-<!-- Global Navigation -->
-<nav>
-  <ul>
-    <li><a href="index.html">About Me</a></li>
-    <li><a href="form.html">Application Form</a></li>
-    <li><a href="table.html">Courses & Schools</a></li>
-    <li><a href="media.html">Media</a></li>
-  </ul>
-</nav>
-
-<!-- Main Content -->
-<main>
-  <h1>ALT School Application Form</h1>
-  <form action="#" method="post">
-    <fieldset>
-      <legend>Personal Information</legend>
-
-      <label for="fullName">Full Name:</label>
-      <input type="text" id="fullName" name="fullName" required>
-
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required>
-    </fieldset>
-
-    <fieldset>
-      <legend>Education Background</legend>
-
-      <label for="school">Previous School Attended:</label>
-      <input type="text" id="school" name="school" required>
-
-      <label for="degree">Degree Obtained:</label>
-      <input type="text" id="degree" name="degree" required>
-    </fieldset>
-
-    <fieldset>
-      <legend>Program Information</legend>
-
-      <label for="program">Program Applying For:</label>
-      <input type="text" id="program" name="program" required>
-
-      <label for="why">Why do you want to join ALT School?</label>
-      <textarea id="why" name="why" rows="4" required></textarea>
-    </fieldset>
-
-    <input type="submit" value="Submit">
-  </form>
-</main>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f9f9f9;">
+    <div style="display: flex; width: 80%; max-width: 1200px; background-color: #fff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);">
+        <div style="flex: 1; padding: 40px; background-color: #fafafa; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+            <img src="graduation-icon.png" alt="Graduation Cap" style="width: 100px; margin-bottom: 20px;">
+            <h1 style="font-size: 24px; margin-bottom: 20px; color: #333;">Learn highly sought after skills without hassle.</h1>
+            <div style="margin-bottom: 20px;">
+                <a href="#"><img src="twitter-icon.png" alt="Twitter" style="margin: 0 10px;"></a>
+                <a href="#"><img src="facebook-icon.png" alt="Facebook" style="margin: 0 10px;"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram" style="margin: 0 10px;"></a>
+                <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" style="margin: 0 10px;"></a>
+            </div>
+            <p style="color: #666;">Tel: 0800ALTSCHOOL</p>
+            <p style="color: #aaa; margin-top: 40px; font-size: 12px;">©2024 AltSchool Africa. All rights reserved.</p>
+        </div>
+        <div style="flex: 1.5; padding: 40px;">
+            <form style="max-width: 400px; margin: 0 auto;">
+                <h2 style="font-size: 24px; margin-bottom: 10px;">Signup</h2>
+                <p style="margin-bottom: 20px; color: #666;">Take the next steps to apply at AltSchool Africa</p>
+                <div style="margin-bottom: 20px;">
+                    <label for="first-name" style="display: block; margin-bottom: 5px; font-weight: bold;">First Name</label>
+                    <input type="text" id="first-name" placeholder="Enter first name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="last-name" style="display: block; margin-bottom: 5px; font-weight: bold;">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Enter last name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="gender" style="display: block; margin-bottom: 5px; font-weight: bold;">Gender</label>
+                    <select id="gender" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                        <option value="" disabled selected>Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="dob" style="display: block; margin-bottom: 5px; font-weight: bold;">Date of Birth</label>
+                    <input type="date" id="dob" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter email address" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="phone" style="display: block; margin-bottom: 5px; font-weight: bold;">Phone Number</label>
+                    <input type="text" id="phone" value="" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="country" style="display: block; margin-bottom: 5px; font-weight: bold;">Country</label>
+                    <select id="country" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                        <option value="" disabled selected>Select your country</option>
+                        <!-- Add more countries as options -->
+                      <option value="" enabled selected>Nigeria</option>
+                      <option value="" enabled selected>Ghana</option>
+                      <option value="" enabled selected>Kenya</option>
+                      <option value="" enabled selected>South Africa</option>
+                      <option value="" enabled selected>Egypt</option>
+                      <option value="" enabled selected>Morocco</option>
+                      <option value="" enabled selected>Tanzania</option>
+                      <option value="" enabled selected>Ethiopia</option>
+                      <option value="" enabled selected>Senegal</option>
+                      <option value="" enabled selected>United States</option>
+                      <option value="" enabled selected>United Kingdom</option>
+                      <option value="" enabled selected>Canada</option>
+                    </select>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="city" style="display: block; margin-bottom: 5px; font-weight: bold;">State/City of Residence</label>
+                    <input type="text" id="city" placeholder="Enter your state or city of residence" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="referral" style="display: block; margin-bottom: 5px; font-weight: bold;">How did you hear about us?</label>
+                    <select id="referral" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                        <option value="" disabled selected>Select channel</option>
+                        <!-- Add more referral channels as options -->
+                    </select>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="password" style="display: block; margin-bottom: 5px; font-weight: bold;">Password</label>
+                    <input type="password" id="password" placeholder="Enter password" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="confirm-password" style="display: block; margin-bottom: 5px; font-weight: bold;">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Enter password again" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <p>
+                        By clicking continue, I agree to <a href="#">Terms of Use</a> and acknowledge that I have read the <a href="#">Privacy Policy</a>.
+                    </p>
+                </div>
+                <button type="submit" style="width: 100%; padding: 15px; background-color: #6200ee; color: #fff; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">Submit</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
