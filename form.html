@@ -104,43 +104,34 @@
         }
         
         /* Media Queries */
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                max-width: 100%;
-            }
-            .left-panel img {
-                width: 100%;
-            }
-            .left-panel h1 {
-                font-size: 24px;
-            }
-            .right-panel form {
-                max-width: 100%;
-            }
-            .right-panel h2 {
-                font-size: 20px;
-            }
-            .right-panel button {
-                font-size: 14px;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .left-panel {
-                padding: 20px;
-            }
-            .right-panel {
-                padding: 20px;
-            }
-            .right-panel h2 {
-                font-size: 18px;
-            }
-            .right-panel button {
-                font-size: 14px;
-                padding: 12px;
-            }
-        }
+       @media (max-width: 768px) {
+       .container {
+       flex-direction: column;
+       padding: 20px;
+       }
+  
+      .left-section, .right-section {
+        width: 100%;
+        padding: 20px;
+      }
+  
+     .logo {
+      width: 150px;
+      }
+  
+    .heading {
+    font-size: 2.5rem;
+    }
+  
+    .sub-heading {
+    font-size: 2rem;
+    }
+  
+    .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+}
     </style>
 </head>
 <body>
